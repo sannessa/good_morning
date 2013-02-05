@@ -5,9 +5,9 @@ class GoodMorning:
   def get_name(self):
     person = raw_input("Please enter your name: ")
 
-    list_of_silly_names = ['not sure why I did this', 'titty mcboob', 'chesty mctesticle', 'orangey mcboobtoucher'
+    list_of_silly_names = ['pit lover', 'titty mcboob', 'chesty mctesticle', 'orangey mcboobtoucher'
                            'stoopid head', 'casey stoner', 'dani pedrosa']
-    if person.lower() == "jason":
+    if person.lower() == "jason" or person.lower() == "kalimar":
       person = list_of_silly_names[random.randint(0, len(list_of_silly_names) - 1)]
 
     print "Good morning " + person
