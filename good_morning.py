@@ -5,7 +5,7 @@ class GoodMorning:
   def get_name(self):
     person = raw_input("Please enter your name: ")
 
-    list_of_silly_names = ['cockpit lover', 'titty mcboob', 'chesty mctesticle', 'orangey mcboobtoucher'
+    list_of_silly_names = ['not sure why I did this', 'titty mcboob', 'chesty mctesticle', 'orangey mcboobtoucher'
                            'stoopid head', 'casey stoner', 'dani pedrosa']
     if person.lower() == "jason":
       person = list_of_silly_names[random.randint(0, len(list_of_silly_names) - 1)]
